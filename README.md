@@ -22,6 +22,9 @@ A Node.js / Express.js app using SendGrid's Inbound Parse to parse email data / 
   - TTL `10m`
   - Mail Server `mx.sendgrid.net`
 
+> For development you can use `https://ngrok.com/` or just to test `https://webhook.site/`
+
+
 
 ### Install
 
@@ -29,7 +32,6 @@ A Node.js / Express.js app using SendGrid's Inbound Parse to parse email data / 
 2. `npm start`
 
 You can now test the Inbound Parse by sending an email to `[anything]@parse.[domain]`.
-
 #### Parsed data properties
 
 ```js
