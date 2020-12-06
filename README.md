@@ -1,6 +1,6 @@
 ## Express SendGrid Inbound Parse
 
-A Node.js / Express.js app using SendGrid's Inbound Parse to parse email data / attachments 
+A Node.js / Express.js app using SendGrid's Inbound Parse to parse email data / attachments.
 
 ### Prerequisites
 
@@ -22,14 +22,13 @@ A Node.js / Express.js app using SendGrid's Inbound Parse to parse email data / 
   - TTL `10m`
   - Mail Server `mx.sendgrid.net`
 
-> For development you can use `https://ngrok.com/` or just to test `https://webhook.site/`
-
-You can now test the Inbound Parse by sending an email to `[anything]@parse.[domain]`.
 
 ### Install
 
 1. `npm install`
 2. `npm start`
+
+You can now test the Inbound Parse by sending an email to `[anything]@parse.[domain]`.
 
 #### Parsed data properties
 
